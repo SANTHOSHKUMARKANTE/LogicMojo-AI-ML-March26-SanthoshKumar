@@ -17,15 +17,27 @@
 
 # solution of precise and optimsed
 
+# class Solution:
+#     def containsDuplicate(self, nums: List[int]) -> bool:
+#         seek = set()
+
+#         for key in nums:
+#             if key in seek:
+#                 return True
+#             else:
+#                 seek.add(key)
+#         return False
+
+
+# More easy and optimal solutio
+
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        seek = set()
+        seek = set(nums)
 
-        for key in nums:
-            if key in seek:
-                return True
-            else:
-                seek.add(key)
-        return False
+        if(len(nums) == len(seek)):
+            return False
+        return True
+
 
         
