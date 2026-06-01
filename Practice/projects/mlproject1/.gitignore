@@ -1,0 +1,47 @@
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Linting / type checking
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenvs / tool directories
+.tox/
+.nox/
+
+# Framework logs
+*.log
+
+# OS files
+.DS_Store
+
+# (Optional) VS Code settings — uncomment if you want to ignore them
+# .vscode/
+
