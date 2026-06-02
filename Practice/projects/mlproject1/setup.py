@@ -22,6 +22,6 @@ setup(
     version='0.0.1',
     author='santhosh',
     author_email='kantesanthun123@gmail.com',
-    packages=find_packages(),
-    install_requires=get_requirements('requirements.txt')
+    packages=find_packages(), # finding packages in the project with the help of __init__.py file in the each project.
+    install_requires=get_requirements('requirements.txt') # getting all the libraries needs to be installed for this project.
 )
